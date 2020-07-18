@@ -39,7 +39,11 @@ def hit?(total)
  elsif input == "h"
  card1 = deal_card
  total += card1
+<<<<<<< HEAD
  display_card_total(total) 
+=======
+ puts total 
+>>>>>>> 0c279f3ff62bb5e175b888a21c46abb43744a869
  total 
  else 
    invalid_command
